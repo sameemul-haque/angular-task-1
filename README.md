@@ -6,4 +6,8 @@
 
 ## Tasks
 
-- [Task 1](2024-06-10) - Design a webpage as shown in figure
+- [Task 1](2024-06-10) - Design a webpage as shown in figure.
+
+## Downloading a Specific Task for Testing
+
+- You can use [https://download-directory.github.io](https://download-directory.github.io) to download just a subdirectory from a GitHub repository. Each task directory has its own download button that utilizes this website.

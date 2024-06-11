@@ -1,5 +1,8 @@
 # Task 1
 
+[![download](https://img.shields.io/badge/⬇️DOWNLOAD-blue?style=for-the-badge "download this subdirectory for testing")](https://download-directory.github.io?url=https://github.com/sameemul-haque/AngularTask/tree/main/2024-06-10)
+
+
 Design a webpage as shown in figure 1. Steps to be followed.
 
 - Use only HTML, CSS, and JavaScript.

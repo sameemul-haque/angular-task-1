@@ -14,10 +14,10 @@
 </head>
 
 <body>
-    <nav>
+    <nav id="navbar">
         <div id="time-per-question" class="general-div">00:00:02</div>
         <div id="time-for-total" class="general-div">00:59:52</div>
-        <button id="submit-btn" class="general-div">Submit <img src="assets/double-tick.svg"></button>
+        <button id="submit-btn" class="general-btn">Submit <img src="assets/double-tick.svg"></button>
     </nav>
     <div id="question-container">
         <div class="question-number selected">1</div>
@@ -52,12 +52,26 @@
         <div class="question-number">30</div>
         <div class="question-number">31</div>
     </div>
+    <div id="qa-container">
+        <p>Question 1<br>Turning and acceleration errors are caused by?</p>
+        <div class="radio-option">
+            <input type="radio" name="question1" id="q1-option1" value="Horizontal Component of Earth's Magnetic Field">
+            <label for="q1-option1">Horizontal Component of Earth's Magnetic Field</label><br>
+        </div>
+        <div class="radio-option">
+            <input type="radio" name="question1" id="q1-option2" value="Vertical Component of Earth's Magnetic Field">
+            <label for="q1-option2">Vertical Component of Earth's Magnetic Field</label><br>
+        </div>
+        <div class="radio-option">
+            <input type="radio" name="question1" id="q1-option3" value="Total Earth's Magnetic Field">
+            <label for="q1-option3">Total Earth's Magnetic Field</label>
+        </div>
     </div>
-    <div>
-        <button></button>
-        <button></button>
-        <button></button>
-        <button></button>
+    <div id="bottom-btns">
+        <button class="general-btn">Back <img src="assets/back.svg"></button>
+        <button class="general-btn">Reset <img src="assets/reset.svg"></button>
+        <button class="general-btn">Confirm <img src="assets/confirm.svg"></button>
+        <button class="general-btn">Next <img src="assets/back.svg" class="next-image"></button>
     </div>
     <script src="script.js"></script>
 </body>
